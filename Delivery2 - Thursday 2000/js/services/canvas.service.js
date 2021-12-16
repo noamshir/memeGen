@@ -1,0 +1,2 @@
+var gElCanvas;
+var gCtx;

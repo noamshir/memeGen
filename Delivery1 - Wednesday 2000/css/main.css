@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Basics */
+
+body {
+  height: 100vh;
+  background-color: #e3e3e3;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* LAYOUTS */
+.main-layout {
+  max-width: 980px;
+  margin: auto;
+}
+
+/* HEADER */
+
+header {
+  height: 120px;
+  top: 0px;
+}
+
+.header-content {
+  max-width: 980px;
+  margin: auto;
+}
+
+.logo {
+  object-fit: contain;
+  width: 150px;
+  padding: 5px;
+}
+
+.header-top {
+  height: 40%;
+  background-color: #ff7f00;
+}
+
+.header-buttom {
+  background-color: #fff;
+  height: 60%;
+}
+
+.header-content ul li a {
+  height: 100%;
+  padding: 5px 15px;
+}
+
+.header-content ul li .pressed {
+  color: black;
+}
+
+/* Gallery */
+.section-gallery {
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.meme img {
+  max-height: 150px;
+}
+
+.meme img:hover {
+  cursor: pointer;
+}
+
+/* Editor */
+.section-editor {
+  position: relative;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.editor-layout {
+  width: 55%;
+}
+
+.close-btn {
+  display: inline-block;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+}
+
+#line-text {
+  width: 70%;
+  height: 15%;
+  font-size: 1.5rem;
+  border: px #ff7f00 solid;
+  border-radius: 10px;
+  align-self: center;
+}
+
+.line-text-update-btns button {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border: 0px;
+  background-color: #fff;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 5px;
+  border-radius: 6px;
+}
+/* CANVAS */
+
+.canvas-container {
+  height: 392px;
+  width: 392px;
+}
+
+/* Helpers */
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.clean-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.close {
+  display: none;
+}
